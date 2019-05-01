@@ -1,0 +1,7 @@
+
+public class SumOfEvenOrOddInRange {
+	public int SumOfEvenOrOddInRange(int lower, int upper){
+		return 0;
+	}
+
+}

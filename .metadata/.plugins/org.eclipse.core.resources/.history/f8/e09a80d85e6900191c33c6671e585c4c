@@ -1,0 +1,13 @@
+
+public class SumOfNaturalNumbers {
+	public int sumOfNaturalNumbers(int lower, int upper){
+		int sum =0;
+		if(lower>=upper) {
+			return sum;
+		}else {
+			sum = sum+sumOfNaturalNumbers(lower+1,upper);
+			return sum;
+		}
+		
+	}
+}

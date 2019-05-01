@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;MergeSortAlgo.split(...)&apos; to &apos;sorting&apos;&#x0D;&#x0A;- Original project: &apos;SortingAlgorithms&apos;&#x0D;&#x0A;- Original element: &apos;MergeSortAlgo.split(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;MergeSortAlgo.sorting(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;split&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{MergeSortAlgo.java[MergeSortAlgo~split~\[I~I~I" name="sorting" references="true" stamp="1554259940504" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+
+public class ReverseOfNumberRecurssion {
+	public int ReverseOfNumberRecurssion(int n){
+		int sum = 0;
+		int r =0;
+		if(n!=0) {
+			r = n%10;
+			System.out.println("the value of sum before :"+sum);
+			sum = sum*10+r;
+			System.out.println("the sum value is :"+sum);
+			ReverseOfNumberRecurssion(n/10);
+		}else {
+			return sum;
+		}
+		return sum;
+	}
+
+}

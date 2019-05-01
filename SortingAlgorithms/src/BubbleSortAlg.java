@@ -1,0 +1,19 @@
+
+public class BubbleSortAlg {
+	public void bubbleSortAlg(int ar[]) {
+	for(int unsortedIndex=ar.length-1;unsortedIndex>0;unsortedIndex--) {
+		for(int i=0;i<unsortedIndex;i++) {
+			if(ar[i]>ar[i+1]) {
+				swap(ar,i,i+1);
+			}
+		}
+	  }
+	}
+	
+	public static void swap(int ar[],int i,int j){
+		int temp =0;
+		temp = ar[j];
+		 ar[j] = ar[i];
+		 ar[i] = temp;	
+	}
+}

@@ -1,0 +1,9 @@
+
+public class SelectionSortAlg {
+	public void selectionSortAlg(int ar[]){
+		for(int lastUnsortedIndex=ar.length-1;lastUnsortedIndex>0;lastUnsortedIndex--) {
+			
+		}
+		
+	}
+}

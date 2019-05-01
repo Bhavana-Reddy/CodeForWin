@@ -1,0 +1,7 @@
+
+public class ReverseOfNumberRecurssion {
+	public int ReverseOfNumberRecurssion(int n){
+		return 0;
+	}
+
+}
